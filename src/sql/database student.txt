@@ -1,0 +1,25 @@
+create database student;
+use student;
+select * from student_records;
+
+INSERT INTO student_records (name, age, department, gpa) VALUES 
+('ravi', 20, 'CSE', 7.8),
+('ramu', 21, 'ECE', 6.9),
+('chari', 22, 'EEE', 8.2),
+('dhoni', 20, 'MECH', 7.1),
+('hari', 19, 'CIVIL', 8.5),
+('tarak', 21, 'CSE', 6.7),
+('kalyam', 23, 'ECE', 7.9),
+('pawan', 20, 'EEE', 7.4),
+('mahesh', 22, 'MECH', 6.5),
+('arjun', 19, 'CIVIL', 7.8),
+('Kiran', 21, 'CSE', 8.1),
+('Lily', 20, 'ECE', 6.8),
+('Mohan', 23, 'EEE', 8.0),
+('sunny', 22, 'MECH', 7.0),
+('Omkar', 19, 'CIVIL', 7.6),
+('Priya', 21, 'CSE', 8.3),
+('surya', 20, 'ECE', 6.6),
+('Rani', 22, 'EEE', 7.3),
+('Sara', 23, 'MECH', 8.4),
+('ali', 21, 'CIVIL', 7.2);
